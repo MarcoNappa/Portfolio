@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: auto;
+    justify-items: center;
+}
+#titolo{
+
+    background-color: antiquewhite;
+    color: lightslategray;
+}
+.titolo2{
+    background-color: rgb(212, 185, 150);
+    color: rgb(129, 149, 168);
+}
+p{
+    background-color: dimgrey;
+    color: rgb(129, 149, 168);
+}
+.list{
+    background-color: bisque;
+    color: rgb(129, 149, 168);
+}
+#self{
+    color: black;
+    background-color: rgb(212, 185, 150);
+}
