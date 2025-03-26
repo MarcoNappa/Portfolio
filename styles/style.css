@@ -1,32 +1,44 @@
 body {
     margin: 0;
     width: auto;
-    justify-items: center;
 }
 
 #titolo {
 
-    background-color: antiquewhite;
-    color: lightslategray;
+    background-color: rgb(216, 199, 176);
+    color: rgb(105, 119, 133);
 }
 
 .titolo2 {
-    background-color: rgb(212, 185, 150);
-    color: rgb(129, 149, 168);
+    background-color: rgb(216, 199, 176);
+    color: rgb(105, 119, 133);
 }
 
 p {
-    background-color: dimgrey;
-    color: rgb(129, 149, 168);
+    background-color: bisque;
+    color: rgb(105, 119, 133);
 }
 
 .list {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 228, 228);
     color: rgb(129, 149, 168);
 }
 
+#self {
+    background-color: antiquewhite color-mix(in srgb, color 30%, color 70%);
+}
+
 #banner {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
+    background-color: antiquewhite;
+    color: aliceblue;
+    border-width: 2vw;
+    border-color: dimgray;
+    border-style: outset;
+    justify-items: center;
+    font-size: 3vw;
+}
+.images{
+    margin:0 25% 0 25%;
+    width: 50%;
+    object-fit:contain;
 }
