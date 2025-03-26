@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    width: auto;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
 }
 
 #titolo {
@@ -37,8 +39,23 @@ p {
     justify-items: center;
     font-size: 3vw;
 }
-.images{
-    margin:0 25% 0 25%;
+
+.images {
+    margin: 0 25% 0 25%;
     width: 50%;
-    object-fit:contain;
+    object-fit: contain;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 228, 228);
+    color: rgb(129, 149, 168);
+    justify-self: center;
+}
+
+.link {
+    color: rgb(165, 126, 53);
+    background-color: rgb(0, 0, 0);
+    font-size: larger;
 }
