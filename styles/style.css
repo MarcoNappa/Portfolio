@@ -1,5 +1,5 @@
 body {
-
+    margin-top: 50px;
     width: 100%;
     justify-self: center;
     align-self: center;
@@ -46,12 +46,16 @@ p {
     object-fit: contain;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 228, 228);
-    color: rgb(129, 149, 168);
-    justify-self: center;
+#header {
+    width: 50%;
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    left: 25px;
+    top: 15px;
+    border: 10px rgba(17, 12, 12, 0.61) groove;
 }
 
 .link {
@@ -64,4 +68,48 @@ p {
     margin-top: 10%;
     width: 100%;
     min-height: 5vw;
+}
+
+.linkutili {
+    position: fixed;
+    left: 25px;
+    top: 25px;
+}
+
+#completeFlag {
+    align-items: end;
+    justify-items: end;
+    left: 75%;
+    top: 15px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+.bracket {
+    height: 80px;
+    width: 10px;
+    background-color: rgba(92, 94, 92, 0.719);
+}
+
+.green {
+    height: 50px;
+    width: 25px;
+    background-color: green;
+    border: 5px black solid;
+}
+
+.white {
+    background-color: white;
+    height: 50px;
+    width: 25px;
+    border: 5px black solid;
+
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+    width: 25px;
+    border: 5px black solid;
 }
